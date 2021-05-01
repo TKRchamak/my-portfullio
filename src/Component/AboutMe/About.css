@@ -1,0 +1,9 @@
+.aboutStyle{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* height: 420px; */
+    background-position: center center;
+    color: whitesmoke;
+}
