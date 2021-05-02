@@ -1,21 +1,24 @@
 import React from 'react';
+import projectPet from '../../Images/Screenshot_1.png'
 
 const Projects = () => {
     return (
         <div>
             <div className="container">
-                <div className="row pt-5">
-                    <div className="col-7 pt-5 ">
+                <h1 className="markWord pt-5">Projects</h1>
+                <div className="row">
+                    <div className="col-7 pt-5">
                         <div className="shadow p-3 mb-5 bg-body rounded">
                             <div class="card text-center" style={{ height: "390px" }}>
-                                <div class="card-body">
-                                    <h5 class="card-title">Special title treatment</h5>
-                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                <div class="figure card-body">
+                                    <img className="figure-img img-fluid rounded" src={projectPet} alt="" />
+                                    <h5 class="card-title">Pet Care</h5>
+                                    <p class="card-text">This is a service and buy pet for recover your loneliness</p>
                                 </div>
                             </div>
                             <div class="card-footer text-muted d-flex">
-                                2 days ago
-                            <a href="#" class="btn btn-style ms-auto">Visit Site</a>
+                                <p>React|Bootstrap|Firebase|Express|Node.js|Mongodb|Heroku</p>
+                                <a href="https://pet-care-tkr.web.app/" class="btn btn-style ms-auto">Visit Site</a>
                             </div>
                         </div>
                     </div>
@@ -24,13 +27,13 @@ const Projects = () => {
                             <div className="shadow p-3 mb-5 bg-body rounded">
                                 <div class="card text-center">
                                     <div class="card-body">
-                                        <h5 class="card-title">Special title treatment</h5>
-                                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                        <h5 class="card-title">Fancy Mart</h5>
+                                        <p class="card-text">This is a E-Commerce Site. This Site is use for sale product</p>
                                     </div>
                                 </div>
                                 <div class="card-footer text-muted d-flex">
-                                    <p>2 days ago</p>
-                                    <a href="#" class="btn btn-style ms-auto">Visit Site</a>
+                                    <p>JavaScript|React|React-Router|Bootstrap</p>
+                                    <a href="https://assignmentnoten.web.app/" class="btn btn-style ms-auto">Visit Site</a>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +46,8 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div class="card-footer text-muted d-flex">
-                                    2 days ago
-                                <a href="#" class="btn btn-style ms-auto">Visit Site</a>
+                                    <p>JavaScript|React|React-Router|Bootstrap</p>
+                                    <a href="#" class="btn btn-style ms-auto">Visit Site</a>
                                 </div>
                             </div>
                         </div>
@@ -63,7 +66,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div class="card-footer text-muted d-flex">
-                                    <p>2 days ago</p>
+                                    <p>JavaScript|React|React-Router|Bootstrap</p>
                                     <a href="#" class="btn btn-style ms-auto">Visit Site</a>
                                 </div>
                             </div>
@@ -77,8 +80,8 @@ const Projects = () => {
                                     </div>
                                 </div>
                                 <div class="card-footer text-muted d-flex">
-                                    2 days ago
-                                <a href="#" class="btn btn-style ms-auto">Visit Site</a>
+                                    <p>JavaScript|React|React-Router|Bootstrap</p>
+                                    <a href="#" class="btn btn-style ms-auto">Visit Site</a>
                                 </div>
                             </div>
                         </div>
@@ -92,8 +95,8 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div class="card-footer text-muted d-flex">
-                                2 days ago
-                            <a href="#" class="btn btn-style ms-auto">Visit Site</a>
+                                <p>JavaScript|React|React-Router|Bootstrap</p>
+                                <a href="#" class="btn btn-style ms-auto">Visit Site</a>
                             </div>
                         </div>
                     </div>
