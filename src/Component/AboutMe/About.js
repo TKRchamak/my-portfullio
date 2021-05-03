@@ -24,8 +24,8 @@ const About = () => {
                             <p>Phone: +8801955406547</p>
                             <p>Email: tkrchamak9813467@gmail.com</p>
                             <a className="contactIcon markWord" href="https://github.com/TKRchamak"><FontAwesomeIcon icon={faGithubSquare} /></a>
-                            <a className="contactIcon markWord" href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
-                            <a className="contactIcon markWord" href="#"><FontAwesomeIcon icon={faEnvelopeSquare} /></a>
+                            <a className="contactIcon markWord" href="https://www.linkedin.com/in/tonmoy-kumar-roy-a4019b199/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                            {/* <a className="contactIcon markWord" href="#"><FontAwesomeIcon icon={faEnvelopeSquare} /></a> */}
                         </div>
                         {/* <Email></Email> */}
                     </div>

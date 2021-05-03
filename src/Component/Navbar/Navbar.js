@@ -35,11 +35,11 @@ const Navbar = () => {
                                 <a className="nav-link" href="https://github.com/TKRchamak"><FontAwesomeIcon icon={faGithubSquare} /></a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                <a className="nav-link" href="https://www.linkedin.com/in/tonmoy-kumar-roy-a4019b199/"><FontAwesomeIcon icon={faLinkedin} /></a>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <a className="nav-link" href="#"><FontAwesomeIcon icon={faEnvelopeSquare} /></a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
