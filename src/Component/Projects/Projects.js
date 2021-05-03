@@ -3,7 +3,7 @@ import projectPet from '../../Images/Screenshot_1.png'
 
 const Projects = () => {
     return (
-        <div>
+        <div id="projects">
             <div className="container">
                 <h1 className="markWord pt-5">Projects</h1>
                 <div className="row">

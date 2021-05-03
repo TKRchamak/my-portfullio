@@ -19,16 +19,13 @@ const Navbar = () => {
                                 <a className="nav-link" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Blog</a>
+                                <a className="nav-link" href="#about">About Me</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <a className="nav-link" href="#projects">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact Me</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <a className="nav-link" href="#blog">Blog</a>
                             </li>
                         </ul>
                     </div>
@@ -42,9 +39,6 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#"><FontAwesomeIcon icon={faEnvelopeSquare} /></a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Download CV<FontAwesomeIcon icon={faCloudDownloadAlt} /></a>
                             </li>
                         </ul>
                     </div>

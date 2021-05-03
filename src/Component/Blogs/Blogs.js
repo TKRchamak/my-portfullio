@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className="container pb-5" style={{height:"300px"}}>
+        <div id="blog" className="container pb-5" style={{height:"300px"}}>
             <h1 className="p-4 text-center markWord">Blogs</h1>
             <div class="row align-items-center text-center pt-5 justify-content-center">
                 <div class="col">
