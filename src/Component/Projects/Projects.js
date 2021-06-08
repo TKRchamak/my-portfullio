@@ -1,12 +1,14 @@
 import React from 'react';
+import './Projects.css'
 import projectPet from '../../Images/Screenshot_1.png'
 import projectRide from '../../Images/Screenshot_2.png'
+import contactDetail from '../../Images/React-App.png'
 
 const Projects = () => {
     return (
-        <div id="projects">
+        <div id="projects" class="projectsStyle">
             <div className="container">
-                <h1 className="markWord pt-5">Projects</h1>
+                <h1 className="markWord pt-5" style={{ color: "#ffffff" }}>Projects</h1>
                 <div className="row">
                     <div className="col-7 pt-5">
                         <div className="shadow p-3 mb-5 bg-body rounded">
@@ -23,8 +25,8 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-5">
-                        <div className="pt-5">
+                    <div className="col-5 pt-4">
+                        {/* <div className="pt-5">
                             <div className="shadow p-3 mb-5 bg-body rounded">
                                 <div class="card text-center">
                                     <div class="card-body">
@@ -37,9 +39,22 @@ const Projects = () => {
                                     <a href="https://assignmentnoten.web.app/" class="btn btn-style ms-auto">Visit Site</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="pt-4">
                             <div className="shadow p-3 mb-5 bg-body rounded">
+                                <div class="card text-center" style={{ height: "390px" }}>
+                                    <div class="figure card-body">
+                                        <h5 class="card-title pb-2">Fancy Slider</h5>
+                                        <img className="figure-img img-fluid rounded" src={contactDetail} alt="" />
+                                        <p class="card-text">This is my first redux app. In this app CRUD operation is used. By this app user can add contact and delete contact and edit contact detail</p>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-muted d-flex">
+                                    <p>Redux|React|React-Router|JavaScript</p>
+                                    <a href="https://tkrchamak.github.io/fancy-slide/index " class="btn btn-style ms-auto">Visit Site</a>
+                                </div>
+                            </div>
+                            {/* <div className="shadow p-3 mb-5 bg-body rounded">
                                 <div class="card text-center">
                                     <div class="card-body">
                                         <h5 class="card-title">Fancy Slider</h5>
@@ -50,7 +65,7 @@ const Projects = () => {
                                     <p>JavaScript|React|React-Router|Bootstrap</p>
                                     <a href="https://tkrchamak.github.io/fancy-slide/index " class="btn btn-style ms-auto">Visit Site</a>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
