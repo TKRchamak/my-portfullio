@@ -1,9 +1,34 @@
-.headerStyle{
-    background-image: url('../../Images/anete-lusina-zwsHjakE_iI-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 650px;
-    color: aliceblue;
+.headerStyle {
+  background-image: url("../../Images/anete-lusina-zwsHjakE_iI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  height: 100vh;
+}
+
+.headerMain {
+  height: 80vh;
+}
+
+/* @media only screen and (min-width: 992px) */
+
+@media only screen and (max-width: 768px) {
+  .headerStyle {
+    background-image: url("../../Images/anete-lusina-zwsHjakE_iI-unsplash.jpg");
+    /* background-image: linear-gradient(black, #1E2749); */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headerStyle {
+    /* background-image: linear-gradient(black, gray); */
+    background-image: url("../../Images/quinton-coetzee-gpa8Y_Fk7Rg-unsplash.jpg");
+    height: 50vh;
+  }
+
+  .headerMain {
+    height: 40vh;
+  }
 }
